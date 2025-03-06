@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello", "hey", "hi", "good morning", "good afternoon", "good evening",
+        "what's up", "how's it going?", "how are you?", "yo", "hiya"
+      ],
+      "responses": [
+        "Hello!", "Hey!", "Hi there!", "What can I do for you?", "Nice to see you!"
+      ]
+    },
+    {
+      "tag": "farewells",
+      "patterns": [
+        "goodbye", "bye", "see you later", "take care", "farewell",
+        "catch you later", "I gotta go", "talk to you soon"
+      ],
+      "responses": [
+        "Goodbye!", "See you later!", "Take care!", "Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "appreciate it", "thanks a lot", "many thanks",
+        "thank you so much", "thx"
+      ],
+      "responses": [
+        "You're welcome!", "No problem!", "Glad to help!", "Anytime!"
+      ]
+    },
+    {
+      "tag": "questions",
+      "patterns": [
+        "what can you do?", "who are you?", "what is your purpose?",
+        "tell me something interesting", "give me a fun fact"
+      ],
+      "responses": [
+        "I'm a chatbot here to assist you!",
+        "I can chat with you and answer simple questions!",
+        "Did you know that honey never spoils?",
+        "A day on Venus is longer than a year on Venus!"
+      ]
+    }
+  ]
+}
